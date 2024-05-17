@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.AppTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.002" tests="11" errors="0" skipped="0" failures="11">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,5 +56,59 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testApp" classname="it.unipd.mtss.AppTest" time="0.003"/>
+  <testcase name="testIntegerToRomanNumberNegativeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberNegativeNumber(IntegerToRomanTest.java:127)
+</failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstTwentyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;XV&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<XV> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstTwentyNumber(IntegerToRomanTest.java:52)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanNumberZero" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberZero(IntegerToRomanTest.java:113)
+</failure>
+  </testcase>
+  <testcase name="testIntegerToRomanDefaultCase" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;M&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<M> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanDefaultCase(IntegerToRomanTest.java:15)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;II&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<II> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstThreeNumber(IntegerToRomanTest.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;LI&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<LI> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstHundredNumber(IntegerToRomanTest.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstFiftyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;XXIX&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<XXIX> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstFiftyNumber(IntegerToRomanTest.java:63)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstFiveHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;CII&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<CII> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstFiveHundredNumber(IntegerToRomanTest.java:85)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanSixThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;VI&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<VI> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanSixThreeNumber(IntegerToRomanTest.java:43)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanFirstThousandNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure message="expected:&lt;DIII&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<DIII> but was:<null>
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstThousandNumber(IntegerToRomanTest.java:96)
+]]></failure>
+  </testcase>
+  <testcase name="testIntegerToRomanNumberOutOfBound" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberOutOfBound(IntegerToRomanTest.java:141)
+</failure>
+  </testcase>
 </testsuite>

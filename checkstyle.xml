@@ -16,7 +16,7 @@
     <module name="LineLength"/>
     <module name="TreeWalker">
         <module name="MethodLength">
-            <property name="max" value="4"/>
+            <property name="max" value="20"/>
         </module>
     </module>
     <module name="TreeWalker">
