@@ -12,7 +12,7 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserisci un numero intero (1-1000):");
-        String romanNumber = scanner.nextInt();
+        Integer romanNumber = scanner.nextInt();
         String asciiArt = RomanPrinter.print(romanNumber);
         System.out.println(asciiArt);   
         scanner.close();
