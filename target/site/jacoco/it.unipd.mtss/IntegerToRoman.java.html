@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>IntegerToRoman.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">roman-number</a> &gt; <a href="index.source.html" class="el_package">it.unipd.mtss</a> &gt; <span class="el_source">IntegerToRoman.java</span></div><h1>IntegerToRoman.java</h1><pre class="source lang-java linenums">////////////////////////////////////////////////////////////////////
+// [LUCA] [CALZETTA] [2075524]
+// [LORENZO] [STEFANI] [2079249]
+////////////////////////////////////////////////////////////////////
+
+package it.unipd.mtss;
+
+import java.util.TreeMap;
+
+
+<span class="fc" id="L11">public class IntegerToRoman {</span>
+
+<span class="fc" id="L13">    private static final TreeMap&lt;Integer, String&gt; romanNumerals = new TreeMap&lt;&gt;();</span>
+
+    static {
+<span class="fc" id="L16">        romanNumerals.put(1000, &quot;M&quot;);</span>
+<span class="fc" id="L17">        romanNumerals.put(900, &quot;CM&quot;);</span>
+<span class="fc" id="L18">        romanNumerals.put(500, &quot;D&quot;);</span>
+<span class="fc" id="L19">        romanNumerals.put(400, &quot;CD&quot;);</span>
+<span class="fc" id="L20">        romanNumerals.put(100, &quot;C&quot;);</span>
+<span class="fc" id="L21">        romanNumerals.put(90, &quot;XC&quot;);</span>
+<span class="fc" id="L22">        romanNumerals.put(50, &quot;L&quot;);</span>
+<span class="fc" id="L23">        romanNumerals.put(40, &quot;XL&quot;);</span>
+<span class="fc" id="L24">        romanNumerals.put(10, &quot;X&quot;);</span>
+<span class="fc" id="L25">        romanNumerals.put(9, &quot;IX&quot;);</span>
+<span class="fc" id="L26">        romanNumerals.put(5, &quot;V&quot;);</span>
+<span class="fc" id="L27">        romanNumerals.put(4, &quot;IV&quot;);</span>
+<span class="fc" id="L28">        romanNumerals.put(1, &quot;I&quot;);</span>
+<span class="fc" id="L29">    }</span>
+
+    public static String convert(int number){
+
+<span class="fc bfc" id="L33" title="All 4 branches covered.">        if (number &lt;= 0 || number &gt; 1000) {</span>
+<span class="fc" id="L34">            throw new IllegalArgumentException(&quot;Il numero deve essere compreso tra 1 e 1000&quot;);</span>
+        }
+
+<span class="fc" id="L37">        StringBuilder roman = new StringBuilder();</span>
+
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        for (int key : romanNumerals.descendingKeySet()) {</span>
+<span class="fc bfc" id="L40" title="All 2 branches covered.">            while (number &gt;= key) {</span>
+<span class="fc" id="L41">                roman.append(romanNumerals.get(key));</span>
+<span class="fc" id="L42">                number -= key;</span>
+            }
+<span class="fc" id="L44">        }</span>
+
+<span class="fc" id="L46">        return roman.toString();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

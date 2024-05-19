@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.002" tests="11" errors="0" skipped="0" failures="11">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.002" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\LukeDj\AppData\Local\Temp\surefire7919209478461422030\surefirebooter14081315926703762147.jar C:\Users\LukeDj\AppData\Local\Temp\surefire7919209478461422030 2024-05-17T12-49-34_829-jvmRun1 surefire12646078914809005291tmp surefire_05725355429608490990tmp"/>
+    <property name="sun.java.command" value="C:\Users\LukeDj\AppData\Local\Temp\surefire125283054405253713\surefirebooter17950711156570242141.jar C:\Users\LukeDj\AppData\Local\Temp\surefire125283054405253713 2024-05-19T16-50-40_299-jvmRun1 surefire8937069978826146669tmp surefire_016977444693814330547tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\LukeDj\Desktop\MTSS-Assignment-2\target\test-classes;C:\Users\LukeDj\Desktop\MTSS-Assignment-2\target\classes;C:\Users\LukeDj\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\LukeDj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,11 +26,11 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\LukeDj\Desktop\MTSS-Assignment-2"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LukeDj\AppData\Local\Temp\surefire7919209478461422030\surefirebooter14081315926703762147.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LukeDj\AppData\Local\Temp\surefire125283054405253713\surefirebooter17950711156570242141.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -49,66 +49,22 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\php-8.3.0;C:\Qt\6.6.1\mingw_64\bin;C:\Program Files\mingw64\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\apache-maven-4.0.0-alpha-13\bin;C:\Users\LukeDj\AppData\Local\Programs\Android Studio\bin;C:\Qt\6.7.0\mingw_64\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\LukeDj\AppData\Local\Microsoft\WindowsApps;C:\Users\LukeDj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LukeDj\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\LukeDj\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Java\jdk-20;C:\Program Files\php-8.1.9;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\MinGW\bin;C:\ProgramData\chocolatey\bin;C:\Users\LukeDj\AppData\Roaming\Python\Scripts;D:\Things\MatLab\bin;C:\Program Files\Maven\bin;C:\Users\LukeDj\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\LukeDj\AppData\Local\Programs\Python\Python311\;C:\Users\LukeDj\AppData\Local\Microsoft\WindowsApps;C:\Users\LukeDj\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\LukeDj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LukeDj\AppData\Local\GitHubDesktop\bin;C:\Users\LukeDj\AppData\Roaming\npm;C:\Users\LukeDj\AppData\Local\spicetify;C:\Program Files (x86)\Nmap;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="18.0.2.1+1-1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testIntegerToRomanNumberNegativeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberNegativeNumber(IntegerToRomanTest.java:127)
-</failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstTwentyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;XV&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<XV> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstTwentyNumber(IntegerToRomanTest.java:52)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanNumberZero" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberZero(IntegerToRomanTest.java:113)
-</failure>
-  </testcase>
-  <testcase name="testIntegerToRomanDefaultCase" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;M&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<M> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanDefaultCase(IntegerToRomanTest.java:15)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;II&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<II> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstThreeNumber(IntegerToRomanTest.java:35)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;LI&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<LI> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstHundredNumber(IntegerToRomanTest.java:74)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstFiftyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;XXIX&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<XXIX> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstFiftyNumber(IntegerToRomanTest.java:63)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstFiveHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;CII&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<CII> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstFiveHundredNumber(IntegerToRomanTest.java:85)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanSixThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;VI&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<VI> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanSixThreeNumber(IntegerToRomanTest.java:43)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanFirstThousandNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure message="expected:&lt;DIII&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<DIII> but was:<null>
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanFirstThousandNumber(IntegerToRomanTest.java:96)
-]]></failure>
-  </testcase>
-  <testcase name="testIntegerToRomanNumberOutOfBound" classname="it.unipd.mtss.IntegerToRomanTest" time="0">
-    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
-	at it.unipd.mtss.IntegerToRomanTest.testIntegerToRomanNumberOutOfBound(IntegerToRomanTest.java:141)
-</failure>
-  </testcase>
+  <testcase name="testIntegerToRomanNumberNegativeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanFirstTwentyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanNumberZero" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanDefaultCase" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="testIntegerToRomanFirstThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanFirstHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanFirstFiftyNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanFirstFiveHundredNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanSixThreeNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanFirstThousandNumber" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="testIntegerToRomanNumberOutOfBound" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
 </testsuite>
