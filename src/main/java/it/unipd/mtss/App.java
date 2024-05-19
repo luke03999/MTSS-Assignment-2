@@ -14,6 +14,7 @@ public class App {
         System.out.println("Inserisci un numero intero (1-1000):");
         Integer romanNumber = scanner.nextInt();
         String asciiArt = RomanPrinter.print(romanNumber);
+
         System.out.println(asciiArt);   
         scanner.close();
     }

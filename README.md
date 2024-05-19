@@ -5,4 +5,4 @@
 - Lorenzo Stefani 2079249
 
 Code Coverage
-![Alt Text](codeCoverage.png)
+![Alt Text](codeCoverage.png) 
